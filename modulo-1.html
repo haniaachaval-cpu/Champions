@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mes 3 · Módulo 1: Primeros pasos con Claude Code · Champions IA</title>
+<meta name="description" content="Mes 3 (Claude Code) · Semana 1 del Programa Champions IA de OCASA.">
+<meta property="og:title" content="Mes 3 · Módulo 1: Primeros pasos con Claude Code · Champions IA">
+<meta property="og:description" content="Mes 3 (Claude Code) · Semana 1 del Programa Champions IA de OCASA.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/champions.css">
+</head>
+<body data-root="../" data-mes="mes-3">
+<nav class="mnav" aria-label="Navegación del curso"><div class="in"><a class="home" href="../index.html">Programa Champions</a><span class="sep">/</span><a class="mes" href="index.html"><span class="lg">Mes 3 · Claude Code</span><span class="sm">Mes 3</span></a><div class="pills" aria-label="Módulos"><a class="pill" data-mod="1" href="modulo-1.html" title="Módulo 1: Primeros pasos con Claude Code" aria-current="page">1</a><a class="pill" data-mod="2" href="modulo-2.html" title="Módulo 2: Construir con Claude Code">2</a></div><a class="xtra" href="adicional.html"><span class="lg">Material adicional</span><span class="sm">Extra</span></a></div></nav><main class="wrap page"><section class="week" id="s1" aria-labelledby="s1-t">
+  <div class="wnum" aria-hidden="true">1<small>de 2</small></div>
+  <div>
+    <h2 id="s1-t">Primeros pasos con Claude Code</h2>
+    <p class="goal">Instalar Claude Code, entender en qué se diferencia del chat y acostumbrarte a trabajar en un ciclo de tres pasos: le pedís, revisás lo que propone y recién ahí aprobás.</p>
+    <div class="wbar"><div class="track" aria-hidden="true"><div class="seg v" style="left:0;width:34.67%"></div><div class="seg p" style="left:34.67%;width:36.67%"></div><div class="cap"></div></div>
+      <div class="meta"><span>Ver: <b>1 h 44</b></span><span>Practicar: <b>1 h 50</b></span><span>Total: <b>3 h 34</b> de 5 h</span></div>
+    </div>
+    <div class="part"><h3>Para ver<span>obligatorio</span></h3><article class="media"><a class="thumb" href="https://app.lab10.ai/clase/claudecode" target="_blank" rel="noopener" aria-label="Abrir Introducción a Claude Code"><img src="https://i.ytimg.com/vi/n8GZtsD0-Ss/hqdefault.jpg" alt="" loading="lazy"><span class="play"><i></i></span><span class="dur">1 h 44</span></a><div><h4><a href="https://app.lab10.ai/clase/claudecode" target="_blank" rel="noopener">Introducción a Claude Code</a></h4><p class="src">Lab10 · Taller · Nivel intermedio</p><p>Un recorrido por cómo se usa Claude Code en la práctica: cómo se le encargan tareas, cómo trabaja directamente sobre los archivos de una carpeta y cómo revisás lo que hace antes de aceptarlo. La diferencia clave con el chat: acá Claude no te devuelve un texto para copiar, sino que hace el trabajo sobre tus archivos.</p><div class="links"><a href="https://app.lab10.ai/clase/claudecode" target="_blank" rel="noopener">Abrir la clase en Lab10</a><a href="https://www.youtube.com/watch?v=n8GZtsD0-Ss" target="_blank" rel="noopener">Ver en YouTube</a></div><label class="done"><input type="checkbox" data-id="s1-m0"> Ya lo vi</label></div></article></div>
+    <div class="part"><h3>Para practicar<span>con el caso de reclamos por facturación</span></h3><div class="ex"><div class="exhead"><h4>1. Instalación y primer pedido</h4><span class="t">30 min</span></div><ol><li>Instalá Claude Code siguiendo el taller.</li>
+<li>Abrilo dentro de la carpeta <code>champions-claude-code</code>.</li>
+<li>Primer pedido: “Contame qué archivos hay en esta carpeta y qué contiene cada uno”.</li></ol>
+<p class="ok"><b>Listo cuando:</b> te describe bien la planilla y el procedimiento sin que se los expliques.</p><label class="done"><input type="checkbox" data-id="s1-e0"> Lo hice</label></div><div class="ex"><div class="exhead"><h4>2. Tu primer reporte</h4><span class="t">40 min</span></div><p>Pedile: “Analizá reclamos-facturacion-prueba.csv: cuántos reclamos hay por cliente, qué porcentaje tiene una diferencia de peso mayor al 5 % y cuál es el importe total en discusión. Armá un archivo reporte.html con un resumen y un gráfico”.</p>
+<ol><li>Antes de aceptar, leé qué te propone hacer.</li>
+<li>Abrí el reporte en el navegador.</li>
+<li>Verificá a mano un número (por ejemplo, cuántos reclamos tiene Distribuidora Norte SA) con la planilla abierta en Google Sheets.</li></ol>
+<p class="ok"><b>Listo cuando:</b> el número que verificaste coincide. Si no coincide, pedile que lo revise y contale qué encontraste.</p><label class="done"><input type="checkbox" data-id="s1-e1"> Lo hice</label></div><div class="ex"><div class="exhead"><h4>3. Darle contexto con CLAUDE.md</h4><span class="t">25 min</span></div><p>El archivo <code>CLAUDE.md</code> es lo que Claude Code lee cada vez que arranca en esa carpeta: es la forma de no repetirle siempre lo mismo. Completá tu área y pegale este pedido:</p>
+<pre id="cmd">Creá un archivo CLAUDE.md en esta carpeta con este contexto:
+- Trabajo en OCASA, una empresa de logística, en el área de [tu área].
+- En esta carpeta analizo reclamos de clientes por diferencias de peso facturado.
+- El criterio para revisar reclamos está en procedimiento-diferencias-de-peso.txt.
+- Los reportes los quiero en español, breves, con una tabla resumen al principio.
+- Antes de modificar o borrar un archivo existente, preguntame.</pre><button class="copy" data-target="cmd">Copiar pedido</button>
+<p>Cerrá la sesión, abrí una nueva y pedí: “Haceme un reporte de los reclamos de Laboratorio Andes”. Compará con el reporte del ejercicio 2.</p>
+<p class="ok"><b>Listo cuando:</b> el nuevo reporte respeta el formato que pediste sin que se lo repitas.</p><label class="done"><input type="checkbox" data-id="s1-e2"> Lo hice</label></div><div class="ex"><div class="exhead"><h4>4. Primero el plan</h4><span class="t">15 min</span></div><p>Para cambios grandes conviene ver el plan antes de que toque nada. Activá el modo plan (con <code>Shift + Tab</code> en la terminal) o escribí “primero mostrame el plan, no cambies ningún archivo”, y pedile: “Dividí el reporte en dos pestañas: una por cliente y otra por canal”.</p>
+<p class="ok"><b>Listo cuando:</b> leíste el plan, le pediste al menos un ajuste y después lo aprobaste.</p><label class="done"><input type="checkbox" data-id="s1-e3"> Lo hice</label></div></div>
+    <div class="part"><h3>Para traer a la clase</h3><div class="cls"><ul><li>Tu reporte.html y el número que verificaste a mano.</li><li>Tu CLAUDE.md: lo comparamos entre todos para ver qué contexto sirvió más.</li><li>Algo que hizo Claude Code que no esperabas.</li></ul></div></div>
+  </div>
+</section><aside class="kitmini"><b>Archivos de práctica:</b><a href="../assets/archivos/reclamos-facturacion-prueba.csv" download>planilla de reclamos (CSV)</a><a href="../assets/archivos/procedimiento-diferencias-de-peso.txt" download>procedimiento (TXT)</a></aside><nav class="pager" aria-label="Entre módulos"><a class="prev" href="index.html">← Índice del mes<small>Mes 3 · Claude Code</small></a><div class="pstat" data-mod="1"></div><a class="next" href="modulo-2.html">Módulo 2 →<small>Construir con Claude Code</small></a></nav><footer>Programa Champions IA · Equipo de Innovación · OCASA. Los talleres son de Lab10 y los cursos de Anthropic Academy; los datos de práctica son ficticios.</footer></main>
+<script src="../assets/curso.js"></script>
+<script src="../assets/champions.js"></script>
+</body>
+</html>

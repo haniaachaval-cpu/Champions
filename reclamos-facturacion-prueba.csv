@@ -1,0 +1,21 @@
+﻿id_reclamo,fecha,cliente,nro_guia,peso_declarado_kg,peso_facturado_kg,importe_facturado,canal,descripcion
+R-0001,2026-10-01,Farmacia Del Sol,GU-48211,12.0,12.3,18450,mail,Diferencia menor en el peso de la guía
+R-0002,2026-10-01,Distribuidora Norte SA,GU-48233,150.0,182.0,412300,mail,Nos facturaron 32 kg de más
+R-0003,2026-10-02,Librería Central,GU-48260,8.5,8.5,9800,formulario,No reconocemos el importe de la factura
+R-0004,2026-10-02,Óptica Visión,GU-48271,3.2,5.0,7650,mail,El paquete pesaba 3 kg y figura 5
+R-0005,2026-10-03,Distribuidora Norte SA,GU-48302,95.0,97.0,201400,teléfono,Revisar peso de la última guía
+R-0006,2026-10-03,Laboratorio Andes,GU-48315,40.0,64.0,268900,mail,Facturaron 64 kg para un envío de 40 kg
+R-0007,2026-10-04,Ferretería El Tornillo,GU-48340,22.0,23.0,31200,formulario,Pedimos revisar la diferencia de peso
+R-0008,2026-10-04,Farmacia Del Sol,GU-48352,11.0,15.5,24800,mail,Otra vez nos cobran de más por peso
+R-0009,2026-10-05,Textil Pampa,GU-48377,310.0,390.0,786500,mail,Diferencia importante en peso facturado
+R-0010,2026-10-05,Librería Central,GU-48390,6.0,6.1,7200,formulario,Consulta por diferencia mínima
+R-0011,2026-10-06,Laboratorio Andes,GU-48401,38.0,38.0,159000,teléfono,Duplicaron la factura de la guía
+R-0012,2026-10-06,Óptica Visión,GU-48422,4.0,6.2,9100,mail,El peso facturado no coincide con el remito
+R-0013,2026-10-07,Textil Pampa,GU-48439,280.0,285.0,575300,formulario,Revisar peso guía GU-48439
+R-0014,2026-10-07,Ferretería El Tornillo,GU-48450,25.0,31.0,40900,mail,Nos cobraron 6 kg de más
+R-0015,2026-10-08,Distribuidora Norte SA,GU-48468,120.0,121.0,262100,mail,Diferencia de 1 kg en la guía
+R-0016,2026-10-08,Farmacia Del Sol,GU-48477,10.0,,16900,formulario,No figura el peso en la factura
+R-0017,2026-10-09,Laboratorio Andes,GU-48490,55.0,71.0,302700,mail,Peso facturado mayor al declarado
+R-0018,2026-10-09,Librería Central,GU-48502,7.0,9.8,11600,mail,Diferencia en peso de la guía
+R-0019,2026-10-10,Textil Pampa,GU-48515,300.0,301.5,612000,teléfono,Consulta general por la factura
+R-0020,2026-10-10,Óptica Visión,GU-48530,2.8,2.9,6900,formulario,Revisar peso

@@ -1,0 +1,24 @@
+PROCEDIMIENTO DE REVISIÓN DE DIFERENCIAS DE PESO (documento ficticio para práctica)
+
+1. Alcance
+Aplica a todo reclamo de cliente que indique que el peso facturado no coincide con el peso real o declarado del envío.
+
+2. Cálculo de la diferencia
+Diferencia % = (peso facturado - peso declarado) / peso declarado x 100.
+
+3. Tolerancia
+- Si la diferencia es igual o menor al 5 %, no se refactura. Se responde al cliente explicando la tolerancia.
+- Si la diferencia es mayor al 5 %, se solicita el comprobante de pesaje al centro de distribución que recibió el envío.
+
+4. Resolución
+- Si el comprobante de pesaje coincide con el peso declarado por el cliente, se emite una nota de crédito por la diferencia.
+- Si el comprobante coincide con el peso facturado, se responde al cliente adjuntando el comprobante.
+- Si no hay comprobante de pesaje, se resuelve a favor del cliente.
+
+5. Aprobaciones
+- Toda nota de crédito por un importe facturado mayor a $500.000 requiere aprobación del supervisor de facturación antes de emitirse.
+- Si al reclamo le falta el número de guía o alguno de los pesos, no se avanza: se le pide el dato al cliente.
+
+6. Plazos y canal
+- El cliente recibe una primera respuesta dentro de las 48 horas hábiles.
+- La respuesta se envía siempre por mail, aunque el reclamo haya entrado por otro canal.

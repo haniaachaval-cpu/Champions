@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mes 2 · Módulo 4: Un agente en el que se pueda confiar · Champions IA</title>
+<meta name="description" content="Mes 2 (n8n y agentes) · Semana 4 del Programa Champions IA de OCASA.">
+<meta property="og:title" content="Mes 2 · Módulo 4: Un agente en el que se pueda confiar · Champions IA">
+<meta property="og:description" content="Mes 2 (n8n y agentes) · Semana 4 del Programa Champions IA de OCASA.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/champions.css">
+</head>
+<body data-root="../" data-mes="mes-2">
+<nav class="mnav" aria-label="Navegación del curso"><div class="in"><a class="home" href="../index.html">Programa Champions</a><span class="sep">/</span><a class="mes" href="index.html"><span class="lg">Mes 2 · n8n</span><span class="sm">Mes 2</span></a><div class="pills" aria-label="Módulos"><a class="pill" data-mod="1" href="modulo-1.html" title="Módulo 1: Primeros workflows en n8n">1</a><a class="pill" data-mod="2" href="modulo-2.html" title="Módulo 2: Del workflow al agente">2</a><a class="pill" data-mod="3" href="modulo-3.html" title="Módulo 3: Contexto y manos: RAG y MCP">3</a><a class="pill" data-mod="4" href="modulo-4.html" title="Módulo 4: Un agente en el que se pueda confiar" aria-current="page">4</a></div><a class="xtra" href="adicional.html"><span class="lg">Material adicional</span><span class="sm">Extra</span></a></div></nav><main class="wrap page"><section class="week" id="s4" aria-labelledby="s4-t">
+  <div class="wnum" aria-hidden="true">4<small>de 4</small></div>
+  <div>
+    <h2 id="s4-t">Un agente en el que se pueda confiar</h2>
+    <p class="goal">Un agente que no se mide no se puede poner a trabajar. Esta semana retomás los casos de prueba del bloque de fundamentos sobre tu agente real y sumás control humano antes de las acciones delicadas.</p>
+    <div class="wbar"><div class="track" aria-hidden="true"><div class="seg v" style="left:0;width:58.33%"></div><div class="seg p" style="left:58.33%;width:30.00%"></div><div class="cap"></div></div>
+      <div class="meta"><span>Ver: <b>2 h 55</b></span><span>Practicar: <b>1 h 30</b></span><span>Total: <b>4 h 25</b> de 5 h</span></div>
+    </div>
+    <div class="part"><h3>Para ver<span>obligatorio</span></h3><article class="media"><a class="thumb" href="https://app.lab10.ai/clase/evaluacion" target="_blank" rel="noopener" aria-label="Abrir Cómo hacer que tu agente sea confiable: monitoreo y evaluación"><img src="https://i.ytimg.com/vi/87uzbUzMrJ8/hqdefault.jpg" alt="" loading="lazy"><span class="play"><i></i></span><span class="dur">1 h 31</span></a><div><h4><a href="https://app.lab10.ai/clase/evaluacion" target="_blank" rel="noopener">Cómo hacer que tu agente sea confiable: monitoreo y evaluación</a></h4><p class="src">Lab10 · Taller · Nivel intermedio</p><p>Se arma un agente de ventas con RAG y se muestra cómo escribir buenos prompts, buscar la información relevante y evaluar las respuestas de forma automática. El taller usa Pinecone y HandIt.ai: no hace falta que crees cuentas, lo que importa es el método para medir.</p><div class="links"><a href="https://app.lab10.ai/clase/evaluacion" target="_blank" rel="noopener">Abrir la clase en Lab10</a><a href="https://www.youtube.com/watch?v=87uzbUzMrJ8" target="_blank" rel="noopener">Ver en YouTube</a></div><label class="done"><input type="checkbox" data-id="s4-m0"> Ya lo vi</label></div></article><article class="media"><a class="thumb" href="https://app.lab10.ai/clase/human-in-the-loop" target="_blank" rel="noopener" aria-label="Abrir Human in the loop"><img src="https://i.ytimg.com/vi/l82-n3cNZqA/hqdefault.jpg" alt="" loading="lazy"><span class="play"><i></i></span><span class="dur">1 h 24</span></a><div><h4><a href="https://app.lab10.ai/clase/human-in-the-loop" target="_blank" rel="noopener">Human in the loop</a></h4><p class="src">Lab10 · Taller · Nivel avanzado</p><p>Cómo poner a una persona en el medio antes de que el agente tome una decisión importante: el agente propone, alguien aprueba o corrige, y recién ahí se ejecuta. Es el taller más técnico del bloque; si algo no te queda claro, anotalo para la clase.</p><div class="links"><a href="https://app.lab10.ai/clase/human-in-the-loop" target="_blank" rel="noopener">Abrir la clase en Lab10</a><a href="https://www.youtube.com/watch?v=l82-n3cNZqA" target="_blank" rel="noopener">Ver en YouTube</a></div><label class="done"><input type="checkbox" data-id="s4-m1"> Ya lo vi</label></div></article></div>
+    <div class="part"><h3>Para practicar<span>con el caso de reclamos por facturación</span></h3><div class="ex"><div class="exhead"><h4>1. Tu set de casos de prueba</h4><span class="t">40 min</span></div><p>En una planilla nueva armá 10 filas con tres columnas: <code>pregunta</code>, <code>respuesta_esperada</code> y <code>resultado</code>. Incluí al menos tres casos trampa: uno fuera del procedimiento, uno con un importe mayor a $500.000 y uno con datos incompletos.</p>
+<ol><li>Armá un workflow que lea cada fila, se la pase al agente y escriba su respuesta en la planilla.</li>
+<li>Sumá un segundo modelo de IA que compare la respuesta con la esperada y escriba “OK” o “FALLA” en <code>resultado</code>.</li>
+<li>Revisá a mano las fallas y marcá cuáles fueron respuestas incorrectas dichas con total seguridad.</li></ol>
+<p class="ok"><b>Listo cuando:</b> tenés el porcentaje de aciertos y sabés cuál es el error más peligroso de tu agente.</p><label class="done"><input type="checkbox" data-id="s4-e0"> Lo hice</label></div><div class="ex"><div class="exhead"><h4>2. Aprobación antes de actuar</h4><span class="t">35 min</span></div><p>Hacé que el agente proponga la respuesta al cliente, pero que nada salga sin aprobación cuando el importe facturado supera los $500.000.</p>
+<ol><li>Agregá un <b>If</b> por importe después del agente.</li>
+<li>En la rama de importe alto, usá un nodo de <b>Gmail</b> con la operación <i>Send and Wait for Response</i> para que el supervisor apruebe o rechace. Usá tu propio mail como supervisor para probar.</li>
+<li>Solo si se aprueba, se envía la respuesta al cliente (también a tu mail).</li></ol>
+<p class="ok"><b>Listo cuando:</b> probaste el reclamo R-0009 y el workflow esperó tu aprobación antes de enviar.</p><label class="done"><input type="checkbox" data-id="s4-e1"> Lo hice</label></div><div class="ex"><div class="exhead"><h4>3. La métrica de tu proyecto</h4><span class="t">15 min</span></div><p>Definí cómo vas a saber que tu proyecto integrador funciona: una métrica y un umbral. Por ejemplo: “8 de cada 10 casos bien resueltos y ningún error dicho con seguridad”, o “baja de 30 a 5 minutos el tiempo por reclamo”.</p>
+<p class="ok"><b>Listo cuando:</b> lo podés escribir en una sola oración.</p><label class="done"><input type="checkbox" data-id="s4-e2"> Lo hice</label></div></div>
+    <div class="part"><h3>Para traer a la clase</h3><div class="cls"><ul><li>La planilla de casos de prueba con sus resultados.</li><li>La versión 2 de tu proyecto, con las correcciones que salieron de las pruebas.</li><li>Tu métrica de éxito y en qué paso de tu proceso pondrías la aprobación humana.</li></ul></div></div>
+  </div>
+</section><aside class="kitmini"><b>Archivos de práctica:</b><a href="../assets/archivos/reclamos-facturacion-prueba.csv" download>planilla de reclamos (CSV)</a><a href="../assets/archivos/procedimiento-diferencias-de-peso.txt" download>procedimiento (TXT)</a></aside><nav class="pager" aria-label="Entre módulos"><a class="prev" href="modulo-3.html">← Módulo 3<small>Contexto y manos: RAG y MCP</small></a><div class="pstat" data-mod="4"></div><a class="next" href="adicional.html">Material adicional →<small>Opcional, por tema</small></a></nav><footer>Programa Champions IA · Equipo de Innovación · OCASA. Los talleres son de Lab10; los datos de práctica son ficticios.</footer></main>
+<script src="../assets/curso.js"></script>
+<script src="../assets/champions.js"></script>
+</body>
+</html>
